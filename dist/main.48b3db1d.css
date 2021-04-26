@@ -1,5 +1,23 @@
-body {
-  background-color: red;
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: currentColor;
+}
+
+.link {
+  color: #de4851;
+  position: relative;
+}
+.link:before {
+  content: "";
+  width: 110%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: currentColor;
+  position: absolute;
 }
 
 /*# sourceMappingURL=/main.48b3db1d.css.map */
