@@ -1,5 +1,14 @@
 @use '../variables';
 
+$bg-color: variables.$primary !default;
+
 .button {
-    
+    height: 40px;
+    border-radius: 20px;
+    background-color: $bg-color;
+    padding: variables.$padding-horizontal;
+    margin: variables.$margin-vertical;
+    border: none;
+    color: variables.$white;
+    display: block;
 }
