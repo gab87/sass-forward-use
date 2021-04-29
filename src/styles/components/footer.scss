@@ -1,0 +1,7 @@
+@use '../variables';
+
+.footer {
+    height: 200px;
+    background-color: variables.$primary-light-2;
+    padding: variables.$padding;
+}

@@ -1,0 +1,16 @@
+@use 'sass:math';
+
+@mixin aspect-ratio($w, $h) {
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        position: relative;
+        padding-bottom: _ratio($w, $h);
+    }
+}
+
+@function _ratio($w, $h) {
+    @return math.percentage($h / $w);
+}

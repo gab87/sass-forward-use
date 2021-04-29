@@ -1,0 +1,6 @@
+@use '../variables';
+
+.header {
+    height: 60px;
+    background-color: variables.$secondary-light-3;
+}
