@@ -85,7 +85,9 @@ picture {
 
 .header {
   height: 60px;
+  padding: 40px;
   background-color: #fff695;
+  color: #de4851;
 }
 
 .footer {

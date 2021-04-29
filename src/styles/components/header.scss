@@ -2,5 +2,7 @@
 
 .header {
     height: 60px;
+    padding: variables.$padding;
     background-color: variables.$secondary-light-3;
+    color: variables.$primary;
 }
